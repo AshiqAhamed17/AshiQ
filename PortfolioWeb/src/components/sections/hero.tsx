@@ -112,7 +112,7 @@ function SocialPreviewCard({ loading, data, platform, username }: any) {
       <div className={`flex gap-3 relative z-10 ${data.banner ? "flex-col items-start -mt-12" : "items-center"}`}>
         {/* eslint-disable-next-line @next/next/no-img-element */}
         <img
-          src={data.avatar || "https://github.com/buddhsen-tripathi.png"}
+          src={data.avatar || "https://github.com/AshiqAhamed17.png"}
           alt={data.name}
           className={`rounded-full object-cover bg-background ${data.banner ? "h-[68px] w-[68px] border-[3px] border-card" : "h-14 w-14 border border-border"}`}
         />
@@ -316,18 +316,18 @@ const Hero = ({ contributionData = [], lifetimeTotal = 0 }: HeroProps) => {
           <div className={`min-w-0 ${GeistPixelSquare.className}`}>
             <div className="flex flex-wrap items-baseline gap-x-3 gap-y-1">
               <h1 className="text-2xl font-bold uppercase tracking-tight md:text-4xl">
-                Buddhsen Tripathi
+                Ashiq Ahamed
               </h1>
             </div>
 
             <p className="mt-2 text-[11px] font-medium uppercase tracking-widest text-muted-foreground md:text-sm">
-              Full-Stack Developer &bull; MS CS @ NYU
+              CS Student &bull; Aspiring ZK &amp; Cryptography Engineer
             </p>
           </div>
 
           <Image
             src="/profpic.jpg"
-            alt="Buddhsen Tripathi"
+            alt="Ashiq Ahamed"
             width={128}
             height={128}
             priority
@@ -342,10 +342,10 @@ const Hero = ({ contributionData = [], lifetimeTotal = 0 }: HeroProps) => {
             About Me
           </h5>
           <p className="text-xs font-space-mono md:text-base md:leading-relaxed text-muted-foreground">
-            Hey there! I&apos;m a <strong className="font-semibold text-foreground">software professional</strong> passionate about building <strong className="font-semibold text-foreground">scalable, user-centric applications</strong> with expertise in <strong className="font-semibold text-foreground">cloud infrastructure and microservices architecture</strong>.
+            Hey there! I&apos;m a <strong className="font-semibold text-foreground">Computer Science student</strong> focused on <strong className="font-semibold text-foreground">Zero-Knowledge Proofs</strong>, <strong className="font-semibold text-foreground">cryptography</strong>, and <strong className="font-semibold text-foreground">privacy-preserving Ethereum systems</strong>.
           </p>
           <p className="mt-4 text-xs font-space-mono md:text-base md:leading-relaxed text-muted-foreground">
-            Currently pursuing my <strong className="font-semibold text-foreground"><a href="https://www.nyu.edu" target="_blank" className="underline">MS in Computer Science at NYU</a></strong> with <strong className="font-semibold text-foreground">2+ years</strong> of experience in full-stack development. Previously spent over two years at <strong className="font-semibold text-foreground"><a href="https://amadeus.com/en" target="_blank" className="underline">Amadeus</a></strong> working on <strong className="font-semibold text-foreground">Java, Spring Boot, Angular, and Azure-backed microservices</strong>. In my free time, I enjoy <strong className="font-semibold text-foreground">building projects</strong>, exploring <strong className="font-semibold text-foreground">cybersecurity</strong>, and contributing to <strong className="font-semibold text-foreground">open-source</strong>.
+            Building deep expertise through <strong className="font-semibold text-foreground">ZK circuits</strong> (Noir &amp; Circom), <strong className="font-semibold text-foreground">protocol design</strong>, and <strong className="font-semibold text-foreground">real-world smart contract security research</strong>. I&apos;m passionate about <strong className="font-semibold text-foreground">ZK rollups</strong>, <strong className="font-semibold text-foreground">Aztec-style privacy systems</strong>, and understanding <strong className="font-semibold text-foreground">Ethereum internals</strong> from first principles.
           </p>
         </motion.div>
 

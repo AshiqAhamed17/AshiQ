@@ -1,6 +1,6 @@
 import { NextResponse } from "next/server";
 
-const BASE = "https://api.counterapi.dev/v1/buddhsen-tripathi-portfolio";
+const BASE = "https://api.counterapi.dev/v1/ashiqahamed17-portfolio";
 
 export async function GET() {
   try {
